@@ -1,5 +1,6 @@
 public class App {
 
+//EXERCISE 1 PROGRAMMING BY CONTACT 
     //initial value
     static boolean iwillReview = true;
     static boolean iwillNotFail = true;
