@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RestaurantController">
+   <children>
+      <Button fx:id="btn1" alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="177.0" mnemonicParsing="false" onAction="#showInfo" text="BURGER KING" textAlignment="CENTER">
+         <textFill>
+            <LinearGradient endX="0.9715639810426541" endY="0.2417061611374408" startY="0.8199052132701422">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8299999833106995" green="0.23240000009536743" blue="0.23240000009536743" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.949999988079071" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn2" alignment="CENTER" contentDisplay="CENTER" layoutX="259.0" layoutY="177.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="30.0" prefWidth="82.0" text="JOLLIBEE" textAlignment="CENTER">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.5879629850387573" blue="0.5879629850387573" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+      <Button fx:id="btn3" alignment="CENTER" contentDisplay="CENTER" layoutX="435.0" layoutY="177.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="30.0" prefWidth="82.0" text="KFC" textAlignment="CENTER">
+         <textFill>
+            <LinearGradient endX="0.4123222748815166" endY="0.8246445497630331">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+      <Button fx:id="btn5" alignment="CENTER" contentDisplay="CENTER" layoutX="158.0" layoutY="343.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="30.0" prefWidth="112.0" text="MCDONALD'S" textAlignment="CENTER">
+         <textFill>
+            <LinearGradient endX="0.5071090047393365" endY="0.8246445497630331" startX="0.4312796208530806">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.9904761910438538" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+      <Button fx:id="btn4" alignment="CENTER" contentDisplay="CENTER" layoutX="377.0" layoutY="343.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="30.0" prefWidth="112.0" text="MANG INASAL" textAlignment="CENTER">
+         <textFill>
+            <LinearGradient endX="0.5071090047393365" endY="0.8246445497630331" startX="0.36492890995260663" startY="0.16587677725118483">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.059131428599357605" green="0.5199999809265137" blue="0.005200000014156103" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+      <ImageView fitHeight="115.0" fitWidth="112.0" layoutX="46.0" layoutY="35.0">
+         <image>
+            <Image url="@../images/BurgerKing.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="137.0" fitWidth="138.0" layoutX="231.0" layoutY="24.0">
+         <image>
+            <Image url="@../images/jollibee.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="98.0" layoutX="158.0" layoutY="226.0">
+         <image>
+            <Image url="@../images/Mcdo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="182.0" layoutX="327.0" layoutY="234.0">
+         <image>
+            <Image url="@../images/MangInasal.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="143.0" fitWidth="138.0" layoutX="407.0" layoutY="24.0">
+         <image>
+            <Image url="@../images/KFC.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
