@@ -139,7 +139,7 @@ public class CheckoutController implements Initializable {
             double qty = Double.parseDouble(choicebox4.getValue());
             item4Amount = HomeController.slamp.getProductPrice() * qty;
 
-            if (source == choicebox3) {
+            if (source == choicebox4) {
                 item4Amount = HomeController.slamp.getProductPrice() * qty;
             }
         }
